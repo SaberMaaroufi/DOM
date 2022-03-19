@@ -1,0 +1,519 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    direction: ltr;
+    background-color: rgba(250, 173, 7, 0.226) !important;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, Segoe UI, Helvetica Neue, Arial, sans-serif;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+    background-color: rgb(250, 173, 7);
+    display: block;
+    position: ;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+}
+
+.navy h1 {
+    font-size: 55px;
+    font-weight: bolder;
+    color: rgb(34, 0, 128);
+}
+
+.logo {
+    width: 50px;
+    height: 59px;
+}
+
+.navy {
+    display: flex;
+    padding: 20px;
+}
+
+.nave {
+    margin-top: 1rem;
+    display: flex;
+    gap: 5rem;
+}
+
+.form-control {
+    border: none;
+    width: 300px;
+    height: 25px;
+    background: transparent;
+    border-radius: 9px;
+    border-style: none;
+}
+
+.example {
+    display: flex;
+}
+
+.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 2px solid rgb(34, 0, 128);
+    float: left;
+    width: 26rem;
+    background: #f1f1f1;
+    border-left: none;
+}
+
+.example button {
+    float: left;
+    width: 20%;
+    height: 3rem;
+    padding: 10px;
+    background: rgb(34, 0, 128);
+    color: white;
+    font-size: 17px;
+    border: 2px solid rgb(34, 0, 128);
+    border-left: none;
+    cursor: pointer;
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.select {
+    box-shadow: none;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 3rem;
+    border: 2px solid rgb(34, 0, 128);
+    border-right: none;
+    cursor: pointer;
+}
+
+.suivi {
+    text-decoration: none;
+    display: flex;
+    font-style: oblique;
+    font-weight: bold;
+    color: black;
+}
+
+.navlist {
+    margin-right: 2rem;
+}
+
+.navlist ul {
+    color: rgb(34, 0, 128);
+    display: flex;
+    list-style: none;
+    gap: 3rem;
+}
+
+.navlist ul li:hover {
+    color: #180bd6;
+}
+
+.navlist ul li a:hover {
+    color: #180bd6;
+}
+
+.navlist ul a {
+    text-decoration: none;
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.sign {
+    cursor: pointer;
+}
+
+.message {
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+
+.message i {
+    width: 30px;
+    size: 30x;
+}
+
+.order {
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+
+.cart {
+    cursor: pointer;
+    width: 50px;
+    text-align: center;
+}
+
+.categories {
+    background-color: rgb(34, 0, 128);
+    height: 40px;
+    width: 100%;
+    box-shadow: 0 10px 50px rgb(29, 5, 243), 0 6px 6px rgba(0, 0, 0, 0.23);
+    animation: slider 0.7s infinite linear;
+}
+
+.nav2 h2 {
+    color: rgb(47, 0, 255);
+    font-size: 40px;
+}
+
+
+/* nav 2 categorie : hover*/
+
+.dropbtn {
+    background-color: #1a151354;
+    width: 16rem;
+    color: white;
+    padding: 10.8px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #0bd611;
+}
+
+
+/*costumerservice*/
+
+.space {
+    background-color: #fff;
+    width: 16rem;
+    height: 22rem;
+    margin-left: 5.7rem;
+    margin-top: 3rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.costumerservice {
+    align-items: center;
+    display: flex;
+    gap: 5px;
+    background-color: #f1f1f1;
+    width: 100%;
+    cursor: pointer;
+}
+
+.agentservice {}
+
+.agentservice a {
+    font-size: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.costumerservice img {
+    padding: 5px;
+    width: 40px;
+    display: flex;
+}
+
+.imgservice {
+    display: flex;
+    flex-direction: column;
+}
+
+.gift {
+    padding-top: 6rem;
+    width: 90px;
+}
+
+
+/*section(0) IMG Responsive*/
+
+.section0 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgsolde {
+    width: 51%;
+    height: 22rem;
+    background-image: url(cute-happy-young-family-wearing-christmas-hats-make-selfie_171337-10572.jpg);
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: 24.8rem;
+    left: 47rem;
+    transform: translate(-50%, 50%);
+    box-shadow: 15px 25px 50px rgb(243, 37, 37);
+    animation: slider 10s infinite linear;
+    object-position: bottom right;
+    cursor: pointer;
+}
+
+@keyframes slider {
+    35% {
+        background-image: url(consumers-use-internet-shopping-concept_1205-8133.jpg);
+    }
+    35% {
+        background-image: url(closeup-shot-beautiful-young-women-with-shopping-bags_181624-45462.jpg);
+    }
+    75% {
+        background-image: url(closeup-multi-colored-gift-boxes-orange-background-christmas-mood_181624-26001.jpg);
+    }
+}
+
+.solde h2 {
+    color: #fff;
+    top: 11rem;
+    right: 48rem;
+    position: absolute;
+    font-size: 55px;
+}
+
+.jusq {
+    font-size: 30px;
+}
+
+.gif {
+    width: 100%;
+}
+
+.gifimg {
+    background-color: #fff;
+    width: 16rem;
+    height: 22rem;
+    margin-right: 5.7rem;
+    margin-top: 3rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+
+.playstore {
+    width: 7rem;
+    cursor: pointer;
+}
+
+.appsstore {
+    width: 7rem;
+    cursor: pointer;
+}
+
+
+/* content*/
+
+
+/*cards*/
+
+.section1 {
+    background-color: #f1f1f1;
+    width: 82.6rem;
+    height: 60rem;
+    margin: 5% 6%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.title {
+    background-color: red;
+    height: 3rem;
+}
+
+.title h2 {
+    color: #fff;
+    padding: 7px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.deletebtn{
+    position: absolute;
+    margin-left: 9px;
+}
+
+
+/* .card{ 
+    color: #fff;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 300px;
+    background-color: rgb(34, 0, 128);
+    font-weight: bold;
+    font-family:'Arial Narrow', Arial, sans-serif ;
+    cursor: pointer;
+    filter: drop-shadow(0 0 15px rgb(55, 0, 255));
+  } */
+
+.cardbuy {
+    color: rgb(172, 190, 3);
+    background-color: rgb(34, 0, 128);
+    font-size: 11px;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    width: 220px;
+    height: 300px;
+    cursor: pointer;
+}
+
+.contentcart {
+    padding: 0.5rem;
+}
+
+.cardbuy:hover {
+    height: 305px;
+    width: 225px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.cardbuy img {
+    height: 180px;
+    width: 100%;
+    object-position: bottom right;
+}
+
+.delete {
+    color: red;
+}
+
+.productname {
+    font-size: small;
+    color: #0bd611;
+}
+
+.price {
+    font-size: 15px;
+    color: #fff;
+    display:flex ;
+gap: 9px;
+}
+.both_price{
+    display: flex;
+    gap: 0.3rem;
+}
+
+.like i{
+    font-size: 1rem;
+    color: #fff;
+    cursor: pointer;
+    user-select: none;
+}
+
+
+.buy {
+    background-color: rgb(9, 247, 9);
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    border-style: none;
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: bold;
+    margin: px;
+}
+
+.counter button {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    color: rgb(34, 0, 128);
+    border: 3px solid rgb(9, 247, 9);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.counter button:hover {
+    background-color: rgb(9, 247, 9);
+    color: #fff;
+}
+
+.counterbuy {
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 2px;
+}
+
+.span0 {
+    color: #0bd611;
+    font-weight: bolder;
+    font-size: 15px;
+}
+.tot{
+    display: flex;
+    background-color: #34d60b;
+    color: #fff;
+    width: 7rem;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
+.tot_shop_img{
+    width: 40px;
+    height: 40px;
+}
+.tot_shop_title{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1rem;
+
+
+}
+.tot_shop{
+    background-color: #e1e4f5;
+    width: 30rem;
+    height: 11rem;
+    margin-left: 9rem;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
